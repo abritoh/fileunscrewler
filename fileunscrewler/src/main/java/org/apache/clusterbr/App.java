@@ -85,7 +85,6 @@ public class App
             if(parts.length > 1) {
                 String[] params = parts[1].split("\\|");
                 for(String item : params) {
-                    //-->System.out.println(String.format("getCommandParameters: %s", item));
                     result.add(item);
                 }
             }
@@ -99,7 +98,6 @@ public class App
             String[] params = globalParams.split("\\|");
             if(params.length > 1) {
                 for(String item : params) {
-                    //-->System.out.println(String.format("getGlobalParameters: %s", item));
                     result.add(item) ;
                 }
             }
@@ -120,7 +118,6 @@ public class App
             case "FileUnscrewlerCLIStd":                
                 cli = new FileUnscrewlerCLIStd(inputFile, command, commandParameters, globalParameters, outputFile);
             break;
-
             default:
                 System.out.println("[createNewFileUnscrewlerCLI]. Invalid parameter.");
             break;
@@ -152,7 +149,6 @@ public class App
             }
         } catch(Exception ex) {
             ex.printStackTrace();
-            System.out.println(ex.toString());
             System.out.println(String.format("[FileUnscrewler:Error] => Abnormal Program Termination: (%s).", ex.getMessage()));
         }
     }
