@@ -26,7 +26,7 @@ import org.apache.clusterbr.proc.FileUnscrewlerCLIStd;
  * 
  *  Form (2) details of usage:
  *  
- *  java -jar fileunscrewler-1.0.jar "{input-file}" "{COMMAND:param1,...}" "{GLOBAL_PARAMS}" "{output-file}"
+ *  java -jar fileunscrewler.jar "{input-file}" "{COMMAND:param1,...}" "{GLOBAL_PARAMS}" "{output-file}"
  *  
  *  Parameters:    
  * 
