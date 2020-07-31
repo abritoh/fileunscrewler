@@ -68,7 +68,7 @@ import org.apache.clusterbr.proc.FileUnscrewlerCLIStd;
  *  Note 4: Defaults: CHARSET = "UTF-8", CASE_INSENSITIVE="false", FORMAT="TAB"
  * ======================================================================================================
  * </pre>
- *  @since  2020-07-23
+ *  @since  2020-07-23  
  *  @author <a href="mailto:abritoh@outlook.com">abritoh@outlook.com</a>
  *  @see <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html">https://docs.oracle.com/.../encoding.doc.html</a>
  */

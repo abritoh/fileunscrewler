@@ -10,6 +10,8 @@ It can be used in two manners:
 
      (2) Invoking a set of utility methods on Command Line.
 
+JavaDoc: https://abritoh.github.io/fileunscrewler/
+
 ===========================================================================
 
  Form (2) details of usage:
