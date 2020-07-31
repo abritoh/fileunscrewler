@@ -1,7 +1,7 @@
 # fileunscrewler
 File Unscrewler
 
-======================================================================================================
+===========================================================================
 
 This Java-Archive (JAR) implements functions for dealing with text-files.
 
@@ -10,7 +10,7 @@ It can be used in two manners:
 
      (2) Invoking a set of utility methods on Command Line.
 
-======================================================================================================
+===========================================================================
 
  Form (2) details of usage:
  
@@ -22,14 +22,14 @@ It can be used in two manners:
 
      {COMMAND:param1|param1|..}  -   The command to be executed on the given input file.
 
-     {CHARSET|CASE_INSENSITIVE|FORMAT}       -   (optional)  Global params. 
+     {CHARSET|CASE_INSENSITIVE|FORMAT}       -   Global params. 
          + CASE_INSENSITIVE = {TRUE,FALSE}        E.g.: ""UTF-8|TRUE|TAB" ,"ISO-8859-1|FALSE|XML"
          + FORMAT = {TAB, XML, JSON}
 
  
-     {output-file}   -   (optional) The output file path-name, where the result will be written;
-                                    if no file is specified the result will be written to the STDOUT.
-======================================================================================================
+     {output-file}   -   The output file path-name, where the result will be written;
+                         if no file is specified the result will be written to the STDOUT.
+===========================================================================
 
  Below the list of commands [{COMMAND} parameter].
      
@@ -41,9 +41,9 @@ It can be used in two manners:
      "sortWordsDescending"           -   Sorts words descending.
      "sortLinesAscending"            -   Sorts lines ascending.
      "sortLinesDescending"           -   Sorts lines descending.
-*
+
  Note 1: As shown above for a given command the parameters are separated by a Pipe Symbol: ("|").
-*
+
  Note 2: Following Commons charset: "ISO8859_1", "US-ASCII", "UTF-8", "UTF-16", "Cp850", "Cp1252"
  
  See: Oracle's documentation: "Supported Encodings - Canonical Name for java.io API and java.lang API"
@@ -53,9 +53,10 @@ It can be used in two manners:
 
  Note 4: Defaults: CHARSET = "UTF-8", CASE_INSENSITIVE="false", FORMAT="TAB"
 ======================================================================================================
-</pre>
+
 @since  2020-07-23
 @author <a href="mailto:abritoh@outlook.com">abritoh@outlook.com</a>
+
 @see <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html">https://docs.oracle.com/.../encoding.doc.html</a>
 
 
