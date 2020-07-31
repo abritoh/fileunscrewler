@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../imp/format/TextFileUnscrewlerXML.html" title="org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerXML" alt="" coords="15,177,385,282"/>
+<area shape="rect" id="node1" href="../imp/format/TextFileUnscrewlerXML.html" title="&lt;TABLE&gt;" alt="" coords="5,171,395,287"/>
+<area shape="rect" id="node2_1" href="../imp/format/TextFileUnscrewlerTAB.html" title="org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerTAB" alt="" coords="430,177,799,282"/>
+<area shape="rect" id="node2" href="../imp/format/TextFileUnscrewlerTAB.html" title="&lt;TABLE&gt;" alt="" coords="419,171,810,287"/>
+<area shape="rect" id="node3_2" href="../imp/format/TextFileUnscrewlerJSON.html" title="org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerJSON" alt="" coords="845,177,1214,282"/>
+<area shape="rect" id="node3" href="../imp/format/TextFileUnscrewlerJSON.html" title="&lt;TABLE&gt;" alt="" coords="834,171,1225,287"/>
+<area shape="rect" id="node4_3" href="./FileUnscrewlerFormatter.html" title="org.apache.clusterbr.proc.contract.FileUnscrewlerFormatter" alt="" coords="447,11,782,117"/>
+<area shape="rect" id="node4" href="./FileUnscrewlerFormatter.html" title="&lt;TABLE&gt;" alt="" coords="437,6,793,122"/>
+</map>

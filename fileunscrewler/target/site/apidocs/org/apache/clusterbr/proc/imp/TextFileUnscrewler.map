@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TextFileUnscrewler.html" title="org.apache.clusterbr.proc.imp.TextFileUnscrewler" alt="" coords="231,257,537,458"/>
+<area shape="rect" id="node1" href="./TextFileUnscrewler.html" title="&lt;TABLE&gt;" alt="" coords="221,251,547,463"/>
+<area shape="rect" id="node2_1" href="../contract/TextFileUnscrewlerGenericResult.html" title="org.apache.clusterbr.proc.contract.TextFileUnscrewlerGenericResult" alt="" coords="15,83,321,125"/>
+<area shape="rect" id="node2" href="../contract/TextFileUnscrewlerGenericResult.html" title="&lt;TABLE&gt;" alt="" coords="5,78,331,130"/>
+<area shape="rect" id="node3_2" href="../impbase/TextFileUnscrewlerBase.html" title="org.apache.clusterbr.proc.impbase.TextFileUnscrewlerBase" alt="" coords="366,11,834,197"/>
+<area shape="rect" id="node3" href="../impbase/TextFileUnscrewlerBase.html" title="&lt;TABLE&gt;" alt="" coords="355,6,845,202"/>
+</map>
