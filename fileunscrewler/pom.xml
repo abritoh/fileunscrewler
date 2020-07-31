@@ -10,6 +10,13 @@
 
   <name>fileunscrewler</name>
   <url>https://github.com/abritoh/fileunscrewler</url>
+  <developers>
+    <developer>
+        <id>abritoh</id>
+        <email>abritoh@outlook.com</email>
+    </developer>
+</developers>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -63,7 +70,7 @@
                   <outputDirectory>${basedir}/target/site/apidocs/</outputDirectory>
                   <resources>          
                     <resource>
-                      <directory>../umlgraph-dejavu/</directory>
+                      <directory>../../fileunscrewler-javadoc/umlgraph-dejavu/</directory>
                       <filtering>true</filtering>
                     </resource>
                   </resources>              
