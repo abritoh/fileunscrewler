@@ -1,8 +1,0 @@
-org.apache.clusterbr
-org.apache.clusterbr.proc
-org.apache.clusterbr.proc.contract
-org.apache.clusterbr.proc.dto
-org.apache.clusterbr.proc.imp
-org.apache.clusterbr.proc.imp.format
-org.apache.clusterbr.proc.impbase
-org.apache.clusterbr.proc.util

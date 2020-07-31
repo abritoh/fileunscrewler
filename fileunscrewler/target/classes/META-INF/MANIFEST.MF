@@ -1,2 +1,0 @@
-Built-By: abritoh
-Main-Class:org.apache.clusterbr.App

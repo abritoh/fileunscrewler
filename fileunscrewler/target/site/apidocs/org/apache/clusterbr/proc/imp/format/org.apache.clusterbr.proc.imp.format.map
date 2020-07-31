@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./TextFileUnscrewlerXML.html" title="org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerXML" alt="" coords="15,11,385,117"/>
-<area shape="rect" id="node1" href="./TextFileUnscrewlerXML.html" title="&lt;TABLE&gt;" alt="" coords="5,6,395,122"/>
-<area shape="rect" id="node2_1" href="./TextFileUnscrewlerTAB.html" title="org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerTAB" alt="" coords="430,11,799,117"/>
-<area shape="rect" id="node2" href="./TextFileUnscrewlerTAB.html" title="&lt;TABLE&gt;" alt="" coords="419,6,810,122"/>
-<area shape="rect" id="node3_2" href="./TextFileUnscrewlerJSON.html" title="org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerJSON" alt="" coords="845,11,1214,117"/>
-<area shape="rect" id="node3" href="./TextFileUnscrewlerJSON.html" title="&lt;TABLE&gt;" alt="" coords="834,6,1225,122"/>
-</map>
