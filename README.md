@@ -1,5 +1,4 @@
 # fileunscrewler
-File Unscrewler
 
 ===========================================================================
 
@@ -31,7 +30,7 @@ It can be used in two manners:
                          if no file is specified the result will be written to the STDOUT.
 ===========================================================================
 
- Below the list of commands [{COMMAND} parameter].
+Below the list of commands [{COMMAND} parameter].
      
      "getCharacters"                 -   Gets all characters.
      "getWords"                      -   Gets all words.
@@ -42,21 +41,23 @@ It can be used in two manners:
      "sortLinesAscending"            -   Sorts lines ascending.
      "sortLinesDescending"           -   Sorts lines descending.
 
- Note 1: As shown above for a given command the parameters are separated by a Pipe Symbol: ("|").
+Note 1: As shown above for a given command the parameters are separated by a Pipe Symbol: ("|").
 
- Note 2: Following Commons charset: "ISO8859_1", "US-ASCII", "UTF-8", "UTF-16", "Cp850", "Cp1252"
+Note 2: Following Commons charset: "ISO8859_1", "US-ASCII", "UTF-8", "UTF-16", "Cp850", "Cp1252"
  
- See: Oracle's documentation: "Supported Encodings - Canonical Name for java.io API and java.lang API"
+See: Oracle's documentation: "Supported Encodings - Canonical Name for java.io API and java.lang API"
 
- Note 3: If CASE_INSENSITIVE is "true", means to treat lower-case and upper-case characters as equals.
+Note 3: If CASE_INSENSITIVE is "true", means to treat lower-case and upper-case characters as equals.
          "a=A", "text==teXT==TEXT".
 
- Note 4: Defaults: CHARSET = "UTF-8", CASE_INSENSITIVE="false", FORMAT="TAB"
-======================================================================================================
+Note 4: Defaults: CHARSET = "UTF-8", CASE_INSENSITIVE="false", FORMAT="TAB"
+
+
+===========================================================================
 
 @since  2020-07-23
 @author <a href="mailto:abritoh@outlook.com">abritoh@outlook.com</a>
 
-@see <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html">https://docs.oracle.com/.../encoding.doc.html</a>
+@see https://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html
 
 
