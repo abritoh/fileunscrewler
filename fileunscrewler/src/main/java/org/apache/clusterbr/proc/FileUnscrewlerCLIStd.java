@@ -3,9 +3,9 @@ package org.apache.clusterbr.proc;
 import java.io.File;
 import java.util.List;
 
-import org.apache.clusterbr.proc.contract.FileUnscrewlerCLI;
-import org.apache.clusterbr.proc.contract.FileUnscrewlerFormatter;
-import org.apache.clusterbr.proc.contract.TextFileUnscrewlerGenericResult;
+import org.apache.clusterbr.proc.ifc.FileUnscrewlerCLI;
+import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
+import org.apache.clusterbr.proc.ifc.TextFileUnscrewlerGenericResult;
 
 import org.apache.clusterbr.proc.imp.TextFileUnscrewler;
 import org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerTAB;

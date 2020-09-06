@@ -12,7 +12,7 @@ import java.util.Iterator;
 import com.google.gson.Gson;
 
 import org.apache.clusterbr.proc.util.TextFileUnscrewlerUtil;
-import org.apache.clusterbr.proc.contract.FileUnscrewlerFormatter;
+import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
 
 /**
  * TextFileUnscrewlerJSON

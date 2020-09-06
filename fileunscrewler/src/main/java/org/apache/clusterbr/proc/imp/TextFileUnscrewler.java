@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import org.apache.clusterbr.proc.contract.FileUnscrewlerFormatter;
-import org.apache.clusterbr.proc.contract.TextFileUnscrewlerGenericResult;
+import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
+import org.apache.clusterbr.proc.ifc.TextFileUnscrewlerGenericResult;
 import org.apache.clusterbr.proc.impbase.TextFileUnscrewlerBase;
 
 /**

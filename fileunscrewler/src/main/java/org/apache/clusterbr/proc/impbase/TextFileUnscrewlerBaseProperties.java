@@ -13,9 +13,9 @@ import java.util.Scanner;
 import java.util.List;
 import java.util.function.Consumer;
 
-import org.apache.clusterbr.proc.contract.FuncExec;
-import org.apache.clusterbr.proc.contract.FuncExecParam2;
-import org.apache.clusterbr.proc.contract.TextFileUnscrewlerProperties;
+import org.apache.clusterbr.proc.ifc.FuncExec;
+import org.apache.clusterbr.proc.ifc.FuncExecParam2;
+import org.apache.clusterbr.proc.ifc.TextFileUnscrewlerProperties;
 
 /**
  * TextFileUnscrewlerBaseProperties

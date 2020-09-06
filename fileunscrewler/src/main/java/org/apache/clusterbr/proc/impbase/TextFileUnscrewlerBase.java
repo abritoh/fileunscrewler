@@ -16,8 +16,8 @@ import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import org.apache.clusterbr.proc.contract.FuncExec;
-import org.apache.clusterbr.proc.contract.FuncExecParam2;
+import org.apache.clusterbr.proc.ifc.FuncExec;
+import org.apache.clusterbr.proc.ifc.FuncExecParam2;
 import org.apache.clusterbr.proc.impbase.TextFileUnscrewlerBaseProperties;
 
 /**

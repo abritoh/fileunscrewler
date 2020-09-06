@@ -1,4 +1,4 @@
-package org.apache.clusterbr.proc.contract;
+package org.apache.clusterbr.proc.ifc;
 
 /**
  * FileUnscrewlerFormatter

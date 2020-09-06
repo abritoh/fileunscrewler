@@ -12,7 +12,7 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import org.apache.clusterbr.proc.util.TextFileUnscrewlerUtil;
-import org.apache.clusterbr.proc.contract.FileUnscrewlerFormatter;
+import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
 
 
 /**

@@ -6,7 +6,7 @@ import java.lang.Exception;
 import java.util.List;
 import java.util.ArrayList;
 
-import org.apache.clusterbr.proc.contract.FileUnscrewlerCLI;
+import org.apache.clusterbr.proc.ifc.FileUnscrewlerCLI;
 import org.apache.clusterbr.proc.FileUnscrewlerCLIStd;
 
 
@@ -69,7 +69,7 @@ import org.apache.clusterbr.proc.FileUnscrewlerCLIStd;
  * ======================================================================================================
  * </pre>
  *  @since  2020-07-23  
- *  @author <a href="mailto:abritoh@outlook.com">abritoh@outlook.com</a>
+ *  @author <a href="mailto:abritoh@outlook.com" target="_blank">abritoh@outlook.com</a>
  *  @see <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html">https://docs.oracle.com/.../encoding.doc.html</a>
  */
 
@@ -155,5 +155,3 @@ public class App
         }
     }
 }
-
-

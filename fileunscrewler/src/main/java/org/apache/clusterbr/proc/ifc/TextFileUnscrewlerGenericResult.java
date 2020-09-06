@@ -1,7 +1,7 @@
-package org.apache.clusterbr.proc.contract;
+package org.apache.clusterbr.proc.ifc;
 
 import java.util.List;
-import org.apache.clusterbr.proc.contract.FileUnscrewlerFormatter;
+import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
 
 /**
  * TextFileUnscrewlerGenericResult

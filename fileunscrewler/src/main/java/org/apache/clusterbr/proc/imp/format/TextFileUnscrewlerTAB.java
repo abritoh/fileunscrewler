@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Iterator;
 
 import org.apache.clusterbr.proc.util.TextFileUnscrewlerUtil;
-import org.apache.clusterbr.proc.contract.FileUnscrewlerFormatter;
+import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
 
 /**
  * TextFileUnscrewlerTAB

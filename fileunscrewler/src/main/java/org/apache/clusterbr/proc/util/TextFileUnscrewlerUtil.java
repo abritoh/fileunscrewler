@@ -9,8 +9,8 @@ import java.io.FileNotFoundException;
 import java.lang.Exception;
 import java.util.List;
 
-import org.apache.clusterbr.proc.contract.FuncExec;
-import org.apache.clusterbr.proc.contract.FuncExecParam2;
+import org.apache.clusterbr.proc.ifc.FuncExec;
+import org.apache.clusterbr.proc.ifc.FuncExecParam2;
 
 /**
  * TextFileUnscrewlerUtil
