@@ -1,7 +1,5 @@
 package org.apache.clusterbr.proc.ifc;
 
-import java.util.List;
-
 /**
  * TextFileUnscrewlerGenericMethods
  * @author <a href="mailto:abritoh@outlook.com">abritoh@outlook.com</a>

@@ -1,24 +1,12 @@
 package org.apache.clusterbr.proc.impbase;
 
-import java.io.Closeable;
-import java.io.File;
-import java.io.FileReader;
 import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.FileNotFoundException;
-
-import java.lang.Exception;
-
-import java.util.Scanner;
-import java.util.List;
-import java.util.function.Consumer;
-import java.util.LinkedList;
+import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
-import org.apache.clusterbr.proc.ifc.FuncExec;
 import org.apache.clusterbr.proc.ifc.FuncExecParam2;
-import org.apache.clusterbr.proc.impbase.TextFileUnscrewlerBaseProperties;
 
 /**
  * TextFileUnscrewlerBase

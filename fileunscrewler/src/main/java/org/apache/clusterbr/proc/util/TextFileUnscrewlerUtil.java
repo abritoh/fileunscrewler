@@ -2,15 +2,10 @@ package org.apache.clusterbr.proc.util;
 
 import java.io.Closeable;
 import java.io.File;
-import java.io.FileReader;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.FileNotFoundException;
-import java.lang.Exception;
 import java.util.List;
 
 import org.apache.clusterbr.proc.ifc.FuncExec;
-import org.apache.clusterbr.proc.ifc.FuncExecParam2;
 
 /**
  * TextFileUnscrewlerUtil

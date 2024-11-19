@@ -1,15 +1,13 @@
 package org.apache.clusterbr.proc;
 
-import java.io.File;
 import java.util.List;
 
 import org.apache.clusterbr.proc.ifc.FileUnscrewlerCLI;
 import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
 import org.apache.clusterbr.proc.ifc.TextFileUnscrewlerGenericResult;
-
 import org.apache.clusterbr.proc.imp.TextFileUnscrewler;
-import org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerTAB;
 import org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerJSON;
+import org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerTAB;
 import org.apache.clusterbr.proc.imp.format.TextFileUnscrewlerXML;
 
 /**
@@ -61,7 +59,7 @@ public class FileUnscrewlerCLIStd implements FileUnscrewlerCLI {
      * SECTION: Private Methods
      * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     */
-
+    @SuppressWarnings("raw")
     private FileUnscrewlerFormatter createNewFileUnscrewlerFormatter(String formatterType) {
         FileUnscrewlerFormatter fileUnscrewlerFormatter = null;        
 
@@ -82,6 +80,7 @@ public class FileUnscrewlerCLIStd implements FileUnscrewlerCLI {
         return fileUnscrewlerFormatter;
     }
     
+    @SuppressWarnings("raw")
     private TextFileUnscrewlerGenericResult createNewTextFileUnscrewler(String type) {
         TextFileUnscrewlerGenericResult fileUnscrewler = null;
         switch(type) {

@@ -1,8 +1,5 @@
 package org.apache.clusterbr.proc.dto;
 
-import java.lang.Number;
-import java.util.List;
-
 /**
  * Generic Tuple for storing two values.
  * @author <a href="mailto:abritoh@outlook.com">abritoh@outlook.com</a>

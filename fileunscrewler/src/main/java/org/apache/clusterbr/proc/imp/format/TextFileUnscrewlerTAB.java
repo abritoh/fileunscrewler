@@ -1,17 +1,14 @@
 package org.apache.clusterbr.proc.imp.format;
 
-import java.lang.Exception;
-import java.io.IOException;
-import java.io.FileOutputStream;
-import java.io.OutputStreamWriter;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-
-import java.util.List;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.Iterator;
+import java.util.List;
 
-import org.apache.clusterbr.proc.util.TextFileUnscrewlerUtil;
 import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
+import org.apache.clusterbr.proc.util.TextFileUnscrewlerUtil;
 
 /**
  * TextFileUnscrewlerTAB

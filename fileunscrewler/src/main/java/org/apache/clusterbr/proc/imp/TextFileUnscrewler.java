@@ -1,10 +1,8 @@
 package org.apache.clusterbr.proc.imp;
 
-import java.util.List;
-import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
-import org.apache.clusterbr.proc.ifc.FileUnscrewlerFormatter;
 import org.apache.clusterbr.proc.ifc.TextFileUnscrewlerGenericResult;
 import org.apache.clusterbr.proc.impbase.TextFileUnscrewlerBase;
 

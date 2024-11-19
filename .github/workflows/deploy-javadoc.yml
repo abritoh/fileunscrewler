@@ -1,0 +1,53 @@
+name: Deploy Javadoc
+
+on:
+  push:
+    branches:
+      - master 
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Java
+      uses: actions/setup-java@v3
+      with:
+        java-version: '8'  
+        distribution: 'adopt'
+
+    - name: Generate Javadoc
+      run: cd fileunscrewler && mvn clean package javadoc:javadoc
+
+    - name: Deploy Javadoc
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+
+        # Clone the gh-pages branch using an authenticated URL
+        git clone --single-branch --branch gh-pages https://x-access-token:${GITHUB_TOKEN}@github.com/abritoh/fileunscrewler.git gh-pages
+        cd gh-pages
+
+        # Copy the new Javadoc to the version-specific folder
+        mkdir -p docs/$VERSION
+        cp -r ../fileunscrewler/target/site/apidocs/* docs/$VERSION/
+
+        # Add a deployment timestamp or small change to force updates
+        echo "Deployment timestamp: $(date)" > docs/$VERSION/deploy-info.txt
+
+        # Check if there are changes to commit
+        if git diff --quiet docs/$VERSION; then
+          echo "No changes in the documentation; skipping deployment."
+          exit 0
+        fi
+
+        # Commit and push the changes
+        git add docs/$VERSION
+        git commit -m "Deploy Javadoc for version $VERSION"
+        git push origin gh-pages
