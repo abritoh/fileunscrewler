@@ -38,7 +38,7 @@ jobs:
         mkdir -p docs/$VERSION
         cp -r ../fileunscrewler/target/site/apidocs/* docs/$VERSION/
 
-        # Add a deployment timestamp or small change to force updates
+        # Add a deployment timestamp or small change  to force updates
         echo "Deployment timestamp: $(date)" > docs/$VERSION/deploy-info.txt
 
         # Check if there are changes to commit
